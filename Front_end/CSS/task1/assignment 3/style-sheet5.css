@@ -1,0 +1,29 @@
+
+._user-name {
+}
+
+/* correct */
+.-user-name {
+}
+
+/* no */
+.1user-name {
+}
+
+/* no */
+.@user-name {
+}
+
+/* no */
+.user@name {
+}
+
+/* no */
+._user10name {
+}
+
+/* crrect */
+.u {
+
+}
+/* crrect*/
