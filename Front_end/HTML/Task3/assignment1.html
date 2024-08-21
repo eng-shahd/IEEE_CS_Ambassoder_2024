@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <!--personal date -->
+        <label for="">Username</label> <br>
+        <input type="text" name="" id="" autofocus minlength="5" maxlength="20" required>
+        <hr>
+
+        <label for="">Email</label> <br>
+        <input type="email" name="" id="" value="o@o.com" readonly>
+        <hr>
+
+        <label for="">Token</label> <br>
+        <input type="text" name="" id="" hidden value="b92f1fc2fce391ad7af633723afd3055">
+        <hr>
+        <!-- Skilles Check box -->
+        <label >Skilles</label><br>
+        <input type="checkbox" name="skilles" value="HTML" id="HTML">
+        <label for="HTML">HTML</label> <br>
+        <input type="checkbox" name="skilles" value="CSS" id="CSS" checked>
+        <label for="CSS">CSS</label> <br>
+        <input type="checkbox" name="skilles" value="JavaScript" id="JavaScript">
+        <label for="JavaScript">JavaScript</label> <br>
+        <input type="checkbox" name="skilles" value="React" id="React">
+        <label for="React">React</label> <br><br>
+        <!-- Job radio -->
+        <label >Job</label><br>
+        <input type="radio" name="job" value="eng" id="eng">
+        <label for="eng">Back-End</label> <br>
+        <input type="radio" name="job" value="eng" id="doc">
+        <label for="doc">Front-End Developer</label> <br>
+        <input type="radio" name="job" value="eng" id="cs" checked>
+        <label for="cs">Business Analyst</label> <br>
+        <input type="radio" name="job" value="eng" id="pm">
+        <label for="pm">Project Manager</label> <br>
+        <br>
+        <label >Choose Book</label>
+        <select name="programming lan" id="lan">
+
+            <optgroup label="Python"></optgroup>
+            <option value="python" selected>v5.0</option>
+            <option value="python">v7.0</option>
+            <option value="python">v8.0</option>
+            <optgroup label="Java"></optgroup>
+            <option value="java" >v2.0</option>
+            <option value="java">v3.0</option>
+            <option value="java">v3.9</option>
+            
+        </select>
+        <br><br>
+        <textarea name="brief" id="tx" placeholder=" Write Here Why You Want To Learn Programming" rows="10" cols="40"></textarea>
+        <br>
+        <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send">
+
+    </form>
+</body>
+</html>
