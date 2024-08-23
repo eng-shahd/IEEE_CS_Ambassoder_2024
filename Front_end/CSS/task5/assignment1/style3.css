@@ -1,0 +1,19 @@
+div {
+    width: 400px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #000;
+    margin-bottom: 20px;
+}
+.normal {
+    white-space: normal;
+}
+.short {
+    white-space: nowrap;
+    overflow: hidden;
+}
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

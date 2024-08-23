@@ -1,0 +1,15 @@
+.one {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.two {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.three {
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+    text-transform: lowercase;
+}
