@@ -1,0 +1,31 @@
+.container {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    box-sizing: border-box;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+}
+
+
+.full-width {
+    flex: 1 1 100%;
+}
+.third-width {
+    flex: 1 1 calc(33.333% - 30px); 
+}
+.half-width {
+  
+  
+    flex: 1 1 calc(50% - 30px); 
+}
+.quarter-width {
+    flex: 1 1 calc(25% - 30px); 
+}
