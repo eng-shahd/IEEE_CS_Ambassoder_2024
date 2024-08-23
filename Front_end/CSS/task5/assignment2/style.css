@@ -1,0 +1,22 @@
+.box {
+    width: 400px;
+    padding: 20px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin-bottom: 20px; 
+}
+
+
+
+.box * {
+    padding: inherit;
+    border: inherit;
+    box-sizing: inherit;
+    background-color: #f0f0f0;
+}
+
+
+.green-box {
+    border-color: green;
+}
