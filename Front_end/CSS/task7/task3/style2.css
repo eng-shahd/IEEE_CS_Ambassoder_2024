@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family:  sans-serif;
+  }
+  
+  .parent {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+  }
+  .parent div {
+    background-color: rgb(244, 67, 54);
+    color: white;
+    width: calc(97% / 3);
+    height: 40px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.7;
+  }
