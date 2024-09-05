@@ -1,0 +1,46 @@
+*{
+    font-family: sans-serif;
+}
+
+ul{
+    margin:auto;
+    padding: 15px;
+    width: 400px;
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+    padding: 10px;
+    background-color: #eee;
+    
+}
+ol,.l3{
+    padding: 0;
+    list-style-position: outside;
+}
+
+.l1{
+    list-style: numeric;
+    
+}
+
+.l2{
+    list-style: upper-roman
+}
+
+.l3{
+    
+    list-style: circle;
+}
+ol li {
+    margin: 5px;
+    margin-left: 30px;
+    padding: 5px;
+    background-color: white;
+}
+.l3 li{
+    list-style-position: inside;
+    margin: 5px ;
+    padding: 5px ;
+    background-color: white;
+}

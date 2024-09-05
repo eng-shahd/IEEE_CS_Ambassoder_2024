@@ -1,0 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+table{
+    margin: auto;
+    width: 700px;
+}
+
+td{
+    border-spacing: 305px;
+    background-color: #eee;
+    padding: 15px;
+}
+
+th{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+button{
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(247, 39, 39);
+    color: white;
+    cursor: pointer;
+}
+.wi{
+    background-color: rgb(74, 174, 255);
+}
