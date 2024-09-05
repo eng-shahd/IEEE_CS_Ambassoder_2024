@@ -1,20 +1,28 @@
+:root{
+    --Fcolor:#ff5722;
+    --Scolor:#01a9f4;
+}
+
+div{
+    font-family:  sans-serif;
+    font-size: larger;
+    
+    font-weight: bold;
+    width:100px;
+    height: 100px;
+    margin: 50px auto;
+    background-color: #eee;
+    border-radius: 50%;
+    box-shadow: 4px 0px 0px var(--Scolor), -4px 0px 0 var(--Fcolor);
+    -webkit-box-shadow: 5px 0 0px var(--Scolor), -5px 0px 0 var(--Fcolor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:var(--Fcolor) ;
 
     
-      body {
-        font-family:  sans-serif;
-      }
-
-      div {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        display: flex;
-        background-color: #eee;
-        font-weight: bold;
-        margin: auto;
-        color: rgb(255, 87, 34);
-        box-shadow: 5px 0 0 0 rgb(255, 87, 34), -5px 0 0 0 rgb(3, 169, 244);
-        align-items: center;
-        justify-content: center;
-      }
-   
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
