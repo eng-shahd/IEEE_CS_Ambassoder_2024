@@ -1,0 +1,49 @@
+*{
+    font: 1em sans-serif;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .layout {
+    display: grid;
+    background-color: #eee;
+    width: 800px;
+    height: 500px;
+    margin: 50px auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: "header header header header" "  section section section aside " " footer footer footer footer";
+  
+  }
+  header,
+  header::before {
+    content: "Header";
+    background-color: rgb(3, 169, 244);
+    grid-area: header;
+    padding: 15px 10px;
+  }
+  section,
+  section::before {
+    content: "Section";
+    background-color: rgb(255, 87, 34);
+    grid-area: section;
+    padding: 15px 10px;
+  }
+  aside,
+  aside::before {
+    content: "Aside";
+    grid-area: aside;
+    background-color: rgb(96, 125, 139);
+    padding: 15px 10px;
+  }
+  footer,
+  footer::before {
+    content: "Footer";
+    grid-area: footer;
+    background-color: rgb(0, 150, 136);
+    padding: 15px 10px;
+  }

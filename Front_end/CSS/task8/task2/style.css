@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 9fr;
+    gap: 20px;
+  }
+  .grid div {
+    background-color: rgb(96, 125, 139);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    counter-increment: member-counter;
+  }
+  
+  .grid div::after {
+    content: counter( member-counter);
+    margin-left: 5px;
+    
+  }
+  .grid div::before {
+    content: "Element";
+  }

@@ -1,0 +1,26 @@
+*{
+    font: 1em sans-serif;
+}
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto; 
+    grid-template-rows: 1fr auto;
+    gap: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+    }
+  
+    .grid div {
+    background-color: #403f3f;
+    display: flex;   
+    justify-content: center;
+    align-items: center;  
+    color: white;  
+    font-size: 20px;
+    font-weight: bold;
+    }  
