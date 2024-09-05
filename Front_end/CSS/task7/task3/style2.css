@@ -1,27 +1,28 @@
-* {
-    box-sizing: border-box;
+*{
     font-family:  sans-serif;
-  }
-  
-  .parent {
-    width: 600px;
-    height: 300px;
-    margin: 0 auto;
+}
+:root{
+    --color:#f44336;
+}
+
+.parent{
+    width:600px;
+    height:300px;
+    margin: 20px auto;
     background-color: #eee;
-    padding: 10px;
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-  }
-  .parent div {
-    background-color: rgb(244, 67, 54);
-    color: white;
-    width: calc(97% / 3);
+}
+
+.parent div{
+    width: calc(90% / 3);
     height: 40px;
-    padding: 5px;
-    justify-content: center;
+    margin: 10px;
+    background-color: var(--color);
+    color: white;
     align-items: center;
     text-align: center;
-    line-height: 1.7;
-  }
+    line-height: 2.5;
+}
