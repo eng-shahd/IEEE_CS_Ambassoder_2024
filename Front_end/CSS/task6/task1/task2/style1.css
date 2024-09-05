@@ -1,0 +1,39 @@
+*{
+    margin: auto ;
+    font-family: sans-serif;
+}
+div{
+    height: 60px;
+    width: 300px;
+    background-color: #eee;
+    margin: auto;
+    
+    
+}
+
+div:first-child{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+div:nth-child(2){
+    
+    margin-bottom: 20px ;
+
+}
+div:nth-child(3){
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+
+div:empty{
+    background-color: red;
+}
+
